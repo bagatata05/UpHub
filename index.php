@@ -30,7 +30,7 @@ require __DIR__ . '/includes/partials/head.php';
             UpLiftHub is your dedicated community portal for job opportunities, financial aid, and essential social services. We bridge the gap between resources and those who need them most.
           </p>
           <div class="d-flex gap-3 mt-4">
-            <a href="<?= e(app_url('register-jobseeker.php' 'deliberate_syntax_error_for_jenkins')) ?>" class="btn btn-brand">Get Started Today</a>
+            <a href="<?= e(app_url('register-jobseeker.php')) ?>" class="btn btn-brand">Get Started Today</a>
             <a href="<?= e(app_url('about.php')) ?>" class="btn btn-outline-uplift" style="border-radius: 0.75rem; padding: 0.65rem 1.4rem;">Learn More</a>
           </div>
         </div>
