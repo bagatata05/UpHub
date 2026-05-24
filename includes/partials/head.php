@@ -10,7 +10,7 @@ $title = $pageTitle ?? 'UpLiftHub';
   <title><?= e($title) ?> — UpLiftHub</title>
   <link rel="icon" type="image/png" href="<?= e(app_url('assets/img/favicon.png')) ?>">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="<?= e(app_url('assets/css/uplifthub.css')) ?>">
   <link rel="stylesheet" href="<?= e(app_url('assets/css/animations.css')) ?>">
