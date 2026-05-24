@@ -3,7 +3,7 @@
         'name' => 'naphier/uphub',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'a4df0c3c25ecb68368dde0d8270d58ff4b69f763',
+        'reference' => 'a16d5a78d1bff43db8f1b9b1b1d23b56515ab47a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'naphier/uphub' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'a4df0c3c25ecb68368dde0d8270d58ff4b69f763',
+            'reference' => 'a16d5a78d1bff43db8f1b9b1b1d23b56515ab47a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
