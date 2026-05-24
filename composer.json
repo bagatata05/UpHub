@@ -1,4 +1,7 @@
 {
+    "name": "naphier/uphub",
+    "description": "UpHub web application project platform.",
+    "license": "proprietary",
     "require": {
         "symfony/mailer": "^7.4",
         "symfony/google-mailer": "^7.4",
