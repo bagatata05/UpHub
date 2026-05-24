@@ -19,15 +19,15 @@ pipeline {
         stage('Lint PHP Source Files') {
             steps {
                 echo 'Running lint checks on root PHP source files to find syntax errors...'
-                bat 'for %%i in (*.php) do php -l "%%i"'
+                bat 'for %%i in (*.php) do (php -l "%%i" || exit /b 1)'
             }
         }
         
         stage('Lint Subdirectories') {
             steps {
                 echo 'Checking key module files for compile errors...'
-                bat 'if exist config for %%i in (config\\*.php) do php -l "%%i"'
-                bat 'if exist api for %%i in (api\\*.php) do php -l "%%i"'
+                bat 'if exist config for %%i in (config\\*.php) do (php -l "%%i" || exit /b 1)'
+                bat 'if exist api for %%i in (api\\*.php) do (php -l "%%i" || exit /b 1)'
             }
         }
     }
